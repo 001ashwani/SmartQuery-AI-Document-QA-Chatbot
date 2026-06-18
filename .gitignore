@@ -1,0 +1,32 @@
+# ── Secrets ──────────────────────────────────────────────
+.env
+
+# ── Virtual Environment ───────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Python Cache ──────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Vector Store / FAISS Index ────────────────────────────
+.faiss/
+vector_store/
+*.index
+
+# ── OS & Editor Artifacts ─────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ── Jupyter Notebooks ─────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+logs/
