@@ -1,7 +1,8 @@
 from typing import List
 
-from langchain.schema import Document
 from langchain_community.vectorstores import FAISS
+from langchain_core.documents import Document
+
 
 
 def create_faiss_store(chunks: List[Document], embeddings) -> FAISS:
